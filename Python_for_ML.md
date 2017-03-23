@@ -38,6 +38,20 @@ Look at the keyboard shortcuts (hit `H` in a notebook) as they are really helpfu
 
 Side note: These notebooks really [remind](https://twitter.com/fossil12/status/844228444225454080) me of the [Swift Playgrounds](https://developer.apple.com/swift/playgrounds/) (Yes, they are even older).
 
+## Editor for Python
+
+As I'm not a big fan of IDEs not native to the OS (like [PyCharm](https://www.jetbrains.com/pycharm/) written in Java) I use [Sublime Text 3](http://www.sublimetext.com) to write Python scripts. To run the scripts using the Python installed with homebrew I created a new "Build System" file `Python-3.sublime-build` in the Packages folder.
+
+```json
+{
+    "cmd": ["/usr/local/bin/python3", "-u", "$file"],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "selector": "source.python"
+}
+```
+
+Now you can run your open script in ST with `cmd+B` (Tools > Build).
+
 ## ML in Python
 
 This is a list of tutorials I looks into so for that capture various aspects of ML modules for Python.
