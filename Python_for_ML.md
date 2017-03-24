@@ -56,15 +56,17 @@ Now you can run your open script in ST with `cmd+B` (Tools > Build).
 
 This is a list of tutorials I looks into so for that capture various aspects of ML modules for Python.
 
-- [Numpy Primer](https://github.com/dalab/lecture_cil_public/blob/master/exercises/ex1/npprimer.ipynb)
+- [Numpy Primer](https://github.com/dalab/lecture_cil_public/blob/master/exercises/ex1/npprimer.ipynb) (A longer tutorial can be found [here](https://docs.scipy.org/doc/numpy-dev/user/quickstart.html). Not tried by myself.)
 - [Titanic Data Science Solutions](https://www.kaggle.com/startupsci/titanic/titanic-data-science-solutions) (Tutorial for Kaggle's intro competition)
 - [Linear Regression Example](http://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html)
+- [Matplotlib: Beginner's Guide](http://matplotlib.org/index.html) (Not tested so far, but it looks really good.)
 
 Using those I found these useful libraries so far
 
 - [Numpy](http://www.numpy.org) for fast numerical calculations
 - [Pandas](http://pandas.pydata.org) for easy importing and shaping of (training/testing) data
 - [scikit-learn](http://scikit-learn.org) for many ML algorithms
+- [Matplotlib](http://matplotlib.org/index.html) for plotting
 
 Want to install all of them? Here you go:
 
@@ -73,6 +75,7 @@ pip3 install numpy
 pip3 install pandas
 pip3 install scipy 	# Needed for scikit-learn
 pip3 install scikit-learn
+pip3 install matplotlib
 ```
 
 ## Basic Python Script Skeleton
